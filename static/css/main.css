@@ -1,0 +1,47 @@
+body{
+    color: #2e2f30;
+    background-color: #f5f5f5;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, ;
+    height:100vh;
+    margin:0;
+    box-sizing:border-box;
+}
+ul, ol, dl, dt, dd {
+    list-style-type: none;
+  }
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, input, button, textarea, th, td, p {
+    margin: 0;
+    padding: 0;
+  }
+img {
+	display: block;
+	border: none;
+}
+input{ outline:none;}
+a{
+    text-decoration: none;
+  }
+  /*浮动S*/
+  .fl{ float: left;}
+  .fr{ float: right;}
+  /*浮动E*/
+  /*字体库颜色S*/
+  .icon-green{ color: rgb(72, 180, 79); font-weight: 700;}
+  /*字体库颜色E*/
+
+
+
+
+
+
+
+
+
+  
+  /*mint ui组件样式修改*通用* */
+  #app .mint-navbar .mint-tab-item.is-selected{
+    color: #2ec748;
+    border-bottom: 2px solid #2ec748;
+    margin-bottom: 0;
+}
+ /*mint ui组件样式修改*通用* */

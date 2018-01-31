@@ -1,27 +1,26 @@
 <template>
    <div>
-    <mt-tabbar >
-    <mt-tab-item id="tab1">
-        <img slot="icon" >
-        tab1
-    </mt-tab-item>
-    <mt-tab-item id="tab2">
-        <img slot="icon" >
-        tab2
-    </mt-tab-item>
-    <mt-tab-item id="tab3">
-        <img slot="icon" >
-        tab3
-    </mt-tab-item>
-    <mt-tab-item id="tab4">
-        <img slot="icon" >
-        tab4
-    </mt-tab-item>
-    </mt-tabbar>
+       <headTop></headTop>
+       <footGuide></footGuide>
    </div>
 </template>
 <script>
+import headTop from '../components/header/head'
+import footGuide from '../components/footer/footGuide'
 export default {
- name:"test"
+ name:"test",
+ data:function(){
+     return {
+
+     }
+
+ },
+ components:{
+  headTop,footGuide
+},
+
 }
 </script>
+<style lang="less" scoped>
+
+</style>
