@@ -9,7 +9,7 @@
 </template>
 <script>
 export default {
-  
+  name:'searchTop'
 }
 </script>
 <style lang="less">

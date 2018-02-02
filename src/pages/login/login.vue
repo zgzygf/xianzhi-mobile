@@ -18,9 +18,9 @@
         <mt-button type="warning">登录</mt-button>
         <p class="bottom-cz">
             <a href="">验证码快速登录</a>
-            <mt-button type="default">
-                立即注册
-            </mt-button>
+            <button type="default">
+                <a href="zclogin">立即注册</a>
+            </button>
         </p>
         <div class="bottom-posi">
             <p class="third">
@@ -94,6 +94,11 @@ export default {
                 font-size: 14px;
                 background-color:rgb(204, 204, 204);
                 color: #fff;
+            }
+            button{
+                float: right;
+                border: none;
+                padding:3px 10px;
             }
         } 
         .bottom-posi{ 

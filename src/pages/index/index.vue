@@ -15,13 +15,17 @@
                 </mt-swipe>
                 <div class="index-search">
                     <div class="saom">
-                        <i class="iconfont icon-wodedingdan"></i>
+                        <a href="/saomiao">
+                            <i class="iconfont icon-wodedingdan"></i>
+                        </a>
                     </div>
                     <div class="input">
                         <input type="text">
                     </div>
                     <div class="ico">
-                        <i class="iconfont icon-search"></i>
+                        <a href="/indexsearch">
+                            <i class="iconfont icon-search" style="font-size:19px;"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -33,7 +37,9 @@
             <div class="shopList">
                 <ul>
                     <li v-for="data in datas">
-                        <img :src="data.imgSrc" alt="">
+                        <a href="">
+                            <img :src="data.imgSrc" alt="">    
+                        </a>  
                         <p>{{data.p}} </p>
                         <span>{{data.span}}</span>
                     </li>
@@ -45,9 +51,10 @@
             <div class="shopList">
                 <ul>
                     <li v-for="data in datas">
-                        <img :src="data.imgSrc" alt="">
+                        <a href="">
+                            <img :src="data.imgSrc" alt="">    
+                        </a> 
                         <p>{{data.p}} </p>
-                        <span>{{data.span}}</span>
                     </li>
                 </ul>
             </div>
@@ -85,16 +92,15 @@ export default {
       
     },
     components:{
-    footGuide
+        footGuide
     },
 }
 </script>
 <style lang="less">
 .index{
-    height: 100%;
-    overflow: scroll;
+    overflow-y: scroll;
     position: fixed;
-    bottom: 60px;
+    bottom: 58px;
     top: 0;
     .swipe-wrapper{
         width: 100%;

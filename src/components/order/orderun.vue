@@ -2,7 +2,7 @@
     <div class="orderGood">
         <mt-cell title="2017-07-14  16:35:42" value="订单号：125453575585548"></mt-cell> 
             <mt-cell title="2017-07-14  16:35:42" value="订单号：125453575585548"></mt-cell> 
-            <mt-cell title="共三件商品" is-link class="cell">  
+            <mt-cell title="共三件商品" is-link class="cell" to="orderlist">  
                 <img slot="icon" src="static/img/load2.png" width="60" height="60">  
                 <img slot="icon" src="static/img/load1.jpg" width="60" height="60">
                 <img slot="icon" src="static/img/load1.jpg" width="60" height="60">
