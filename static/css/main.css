@@ -2,7 +2,6 @@ body{
     color: #2e2f30;
     background-color: #f5f5f5;
 	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, ;
-    height:100vh;
     margin:0;
     box-sizing:border-box;
 }
@@ -28,7 +27,40 @@ a{
   /*字体库颜色S*/
   .icon-green{ color: rgb(72, 180, 79); font-weight: 700;}
   /*字体库颜色E*/
-
+ /*按钮通用S*/
+  .xz-button{
+    border-radius: 0;
+    background:#f6f8fa;
+    box-shadow: 0 0 1px #b8bbbf;
+    color: #333;
+    display: inline-block;
+    padding: 0 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: inherit;
+    font-size: 18px;
+    height: 41px;
+    outline: 0;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+  }
+  .xz-button a{
+      color: #fff;
+  }
+  .button-success{
+      background-color: #2ec748;
+      color: #fff;
+  }
+  .button-warning{
+      background-color: #ff9933;
+      color: #fff;
+  }
+  .button-danger{
+      background-color: #ef4f4f;
+      color: #fff;
+  }
+ /*按钮通用E*/
 
 
 

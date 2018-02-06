@@ -15,8 +15,8 @@
                 </mt-swipe>
                 <div class="index-search">
                     <div class="saom">
-                        <a href="/saomiao">
-                            <i class="iconfont icon-wodedingdan"></i>
+                        <a href="/login">
+                            <i class="iconfont icon-saoyisao"></i>
                         </a>
                     </div>
                     <div class="input">

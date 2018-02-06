@@ -15,6 +15,10 @@ import indexsearch from '@/pages/index/indexsearch'
 import saomiao from '@/pages/index/saomiao'
 import orderlist from '@/pages/ordergood/orderlist'
 import classify from '@/pages/classify/classify'
+import shopindex from '@/pages/shopCart/shopindex'
+import payment from '@/pages/shopCart/payment'
+import paysuccess from '@/pages/shopCart/paysuccess'
+import receipt from '@/pages/shopCart/receipt'
 Vue.use(Router)
 
 export default new Router({
@@ -93,6 +97,26 @@ export default new Router({
       path: '/classify',
       name: 'classify',
       component: classify
+    },
+    {
+      path: '/shopindex',
+      name: 'shopindex',
+      component: shopindex
+    },
+    {
+      path: '/payment',
+      name: 'payment',
+      component: payment
+    },
+    {
+      path: '/paysuccess',
+      name: 'paysuccess',
+      component: paysuccess
+    },
+    {
+      path: '/receipt',
+      name: 'receipt',
+      component: receipt
     }
   ],
   mode:'history'

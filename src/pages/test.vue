@@ -1,10 +1,12 @@
 <template>
-   <div>
+   <div style="min-height:100%;">
+       <classSearch></classSearch>
        <headTop></headTop>
        <footGuide></footGuide>
    </div>
 </template>
 <script>
+import classSearch from '../components/common/classSearch'
 import headTop from '../components/header/head'
 import footGuide from '../components/footer/footGuide'
 export default {
@@ -16,7 +18,7 @@ export default {
 
  },
  components:{
-  headTop,footGuide
+  classSearch,headTop,footGuide
 },
 
 }

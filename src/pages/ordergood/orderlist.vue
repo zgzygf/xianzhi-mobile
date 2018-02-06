@@ -82,6 +82,7 @@
        .page-cell{
            .mint-cell-wrapper{
                .mint-cell-title{ 
+                   padding:8px 0;
                    span{
                        display: block;
                        float: left;
@@ -108,23 +109,24 @@
                                 display: block;
                                 color: orange; 
                                 font-weight: normal;
+                                margin-top: 8px;
                                 div{
                                     position: absolute;
                                     right: 10px;
-                                    bottom: 6px;
+                                    bottom: 12px;
                                     display: flex;
                                     .btn{
                                         display: inline-block;
-                                        padding:5px 8px;
+                                        padding:6px;
                                         border-radius: 50%;
                                         border: 0;
                                         background: #fff;
                                         color: #999;
-                                        border: 1px solid #ccc;
+                                        border: 2px solid #ccc;
                                         text-align: center;
                                         &:hover{
                                             background:#eee;
-                                            border: 1px solid #eee;
+                                            border: 2px solid #eee;
                                         }
                                     }
                                     b{
@@ -136,7 +138,7 @@
                             p.href{
                                 font-size: 12px;
                                 color: #999;
-                                padding:8px 0;
+                                padding:12px 0 8px;
                                 white-space:nowrap; 
                                 overflow: hidden;
                                 text-overflow: ellipsis;
@@ -148,7 +150,7 @@
            }
            .mint-cell-right{
                .mint-cell-swipe-button{
-                   line-height: 76px;
+                   line-height: 95px;
                }
            }
        }
